@@ -3,24 +3,6 @@ body {
     border: 10px solid black;
 }
 
-@media (min-width: 0px){
-    body {
-        border-color: red;
-    }
-}
-
-@media (min-width: 376px){
-    body {
-        border-color: blue;
-    }
-}
-
-@media (min-width: 426px){
-    body {
-        border-color: green;
-    }
-}
-
 main {
     margin: 15px;
     font-family: sans-serif;
@@ -29,4 +11,44 @@ main {
 
 li {
     margin-bottom: 5px;
+}
+
+/* small mobile phone */
+
+@media (min-width: 0px){
+    body {
+        border-color: red;
+    }
+}
+
+/* mobile phone */
+
+@media (min-width: 376px){
+    body {
+        border-color: blue;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 426px){
+    body {
+        border-color: green;
+    }
+}
+
+/* desktop */
+
+@media (min-width: 769px){
+    body {
+        border-color: yellow;
+    }
+}
+
+/* big screens */
+
+@media (min-width: 1025px){
+    body {
+        border-color: rgb(233, 70, 201);
+    }
 }
